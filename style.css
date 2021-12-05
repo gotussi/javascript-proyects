@@ -1,0 +1,151 @@
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.form-cuadrado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.form-cuadrado label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.input-cuadrado {
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.input-cuadrado:hover {
+    border:mediumseagreen solid 3px;
+}
+.input-container {
+    margin-top: 5px;
+}
+.boton-regular {
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin: 8px 0;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.boton-regular:hover {
+    border: mediumseagreen solid 3px;
+}
+
+/*TRIANGulo*/
+.card-triangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 3px solid grey;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.form-triangulo {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 5px;
+}
+.input-container__triangulo {
+    display: flex;
+    flex-direction: column;
+}
+.boton-triangulo {
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin: 8px 0;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.boton-triangulo:hover {
+    border: mediumseagreen solid 3px;
+}
+
+.form-triangulo-area {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 5px;
+}
+
+.form-circulo__circunferencia {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 5px;
+}
+
+
