@@ -7,17 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./figura.css">
     <title>Figuras Geometricas | Clase del Curso</title>
 </head>
 <body>
     <header>
-        <h1>Calculadora GENESIS:</h1>
+        <nav>
+           <div class="boton-home">
+                <a href="/index.html">HOME</a>
+           </div>
+        </nav>
     </header>
     <main>
         <section class="card-cuadrado">
             <div class="titulo">
-                <h3>Calcula el area y perimetro de un <b>CUADRADO</b></h3>
+                <h3>Calcula el area y perimetro de un <span class="span-edit">CUADRADO</span></h3>
             </div>
             <form action="" class="form-cuadrado">
                 <label for="inputCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
@@ -27,10 +31,13 @@
                 <button class="boton-regular" type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
                 <button class="boton-regular" type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
             </form>
+            <div class="respuesta">
+                <p id="respuesta"></p>
+            </div>
         </section>
         <section class="card-triangulo">
             <div class="titulo">
-                <h3>Calcula el Perimetro del triangulo</h3>
+                <h3>Calcula el Perimetro del <span class="span-edit">TRIANGULO</span></h3>
             </div>
             <form action="" class="form-triangulo">
                 <div class="input-container__triangulo">
@@ -52,10 +59,13 @@
     
                 <button class="boton-triangulo" type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
             </form>
+            <div class="respuesta">
+                <p id="respuesta1"></p>
+            </div>
         </section>
         <section class="card-cuadrado">
             <div class="titulo">
-                <h3>Calcula el area del triangulo</h3>
+                <h3>Calcula el area del <span class="span-edit">TRIANGULO</span></h3>
             </div>
             <form action="" class="form-triangulo-area">
                 <label for="base1">Escribe la Base:</label>
@@ -70,10 +80,13 @@
 
                 <button class="boton-triangulo" type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
             </form>
+            <div class="respuesta">
+                <p id="respuesta2"></p>
+            </div>
         </section>
         <section class="card-cuadrado">
             <div class="titulo">
-                <h3>Calcula la circunferenncia de un circulo</h3>
+                <h3>Calcula la circunferenncia de un <span class="span-edit">CIRCULO</span></h3>
             </div>
             <form action="" class="form-circulo__circunferencia">
                 <label for="radio">Radio: </label>
@@ -82,10 +95,13 @@
                 </div>
                 <button class="boton-triangulo" type="button" onclick="calcularCircunferencia()">Calcular Circunferencia</button>
             </form>
+            <div class="respuesta">
+                <p id="respuesta3"></p>
+            </div>
         </section>
         <section class="card-cuadrado">
             <div class="titulo">
-                <h3>Calcula el area de un circulo</h3>
+                <h3>Calcula el area de un <span class="span-edit">CIRCULO</span></h3>
             </div>
             <form action="" class="form-circulo__circunferencia">
                 <label for="radioA">Radio: </label>
@@ -94,6 +110,9 @@
                 </div>
                 <button class="boton-triangulo" type="button" onclick="calcularArea()">Calcular Area</button>
             </form>
+            <div class="respuesta">
+                <p id="respuesta4"></p>
+            </div>
         </section>
     </main>
     <script src="./figura.js"></script>

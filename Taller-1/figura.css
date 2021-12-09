@@ -7,20 +7,31 @@ html {
     padding: 0%;
     margin: 0%;
 }
-header {
-    margin-top: 50px;
+nav {
+    background-color: rgb(250, 227, 231);
     display: flex;
-    align-content: center;
-    align-items: center;
     justify-content: center;
 }
+nav div {
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+    border: rgb(82, 81, 81) 1px solid;
+    padding: 10px;
+    margin-top: 5px;
+}
+nav div a {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
 main {
-    width: 100vw;
-    height: 90vh;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(250, 227, 231);
 }
 
 .card-cuadrado {
@@ -28,12 +39,13 @@ main {
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 300px;
+    height: auto;
     border: 3px solid grey;
-    justify-content:space-evenly;
     border-radius: 20px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    margin: 15px 0;
+    background-color: whitesmoke;
 }
 .titulo {
     display: flex;
@@ -43,6 +55,7 @@ main {
     margin-bottom: 10px;
 }
 .form-cuadrado {
+    width: 230px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -51,6 +64,7 @@ main {
     border: solid 1px grey;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 5px;
 }
 .form-cuadrado label {
     margin-bottom: 10px;
@@ -76,6 +90,7 @@ main {
     margin: 8px 0;
     font-size: 1.1rem;
     border-radius: 5px;
+    border: rgb(248, 123, 77) solid 3px;
 }
 .boton-regular:hover {
     border: mediumseagreen solid 3px;
@@ -87,11 +102,12 @@ main {
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 300px;
+    height: auto;
     border: 3px solid grey;
-    justify-content:space-evenly;
+    justify-content: center;
     border-radius: 20px;
     padding: 20px;
+    background-color: whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 .form-triangulo {
@@ -117,6 +133,7 @@ main {
     margin: 8px 0;
     font-size: 1.1rem;
     border-radius: 5px;
+    border: rgb(248, 123, 77) solid 3px;
 }
 .boton-triangulo:hover {
     border: mediumseagreen solid 3px;
@@ -148,4 +165,26 @@ main {
     padding: 5px;
 }
 
+.respuesta {
+    display: flex;
+    
+    height: 50px;
+    width: 230px;
+    margin-top: 15px;
+    border: solid 1px grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    align-items: center;
+    justify-content: center;
+}
+.respuesta p {
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
 
+.span-edit {
+    background-color: rgb(54, 214, 198);
+    font-weight: bolder;
+    font-size: 1.6rem;
+}

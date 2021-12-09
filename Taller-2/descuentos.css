@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav div {
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+    border: rgb(82, 81, 81) 1px solid;
+    padding: 10px;
+    margin-top: 12px;
+}
+nav div a {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+.main-container h2 {
+    box-shadow: rgba(184, 184, 184, 40%) 0px 1px 57px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border : solid 2px rgb(184, 184, 184);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: start;
+    border-radius:10px;
+}
+#input-precio {
+    width: 180px;
+    margin: 6px 0;
+    background-color: rgb(223, 255, 223);;
+    border: none;
+    border-radius:  4px;
+}
+#input-descuento {
+    width: 50px;
+    margin: 6px 0;
+    background-color: rgb(255, 208, 208);
+    border:none;
+    margin-right: 3px;
+    border-radius:  4px;
+}
+#resultadoParrafo {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 700;
+}
+.respuesta {
+    width: 220px;
+    height: 70px;
+    border: solid rgb(184, 184, 184) 1px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botonsote {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botonsote button {
+    width: 100px;
+    height: 110px;
+    border-radius: 10px;
+    border : 1px solid rgb(192, 209, 255);
+    background-color: rgb(223, 255, 223);
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+}

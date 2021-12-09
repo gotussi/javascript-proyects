@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./promedio.css">
+    <title>Promedio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="boton-home">
+                 <a href="/index.html">HOME</a>
+            </div>
+         </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <label for="datos">Escribe una lista de valores</label>
+            <form action="" class="form-container">
+                <input
+                      type="text"
+                      placeholder="Ej: 20, 12, 20, 21, etc"
+                      id="datos"
+                      class="input"
+                    />
+                <div class="botones">
+                    <button type="button" onclick="botonPromedio()">Media Aritmetica</button>
+                    <button type="button" onclick="botonMediana()">Calcular Mediana</button>
+                    <button type="button" onclick="botonModa()">Calcular Moda</button>
+                </div>
+            </form>
+            <div class="card--form__result">
+                <p class="text-result" id="resultEstadistica"></p>
+            </div>
+        </div>
+    </main>
+    <script src="./promedio.js"></script>
+</body>
+</html>

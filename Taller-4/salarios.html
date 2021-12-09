@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Taller-4/salarios.css">
+    <title>Salarios Analisis</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="boton-home">
+                 <a href="/index.html">HOME</a>
+            </div>
+         </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="titulo">
+                <h1>ANALISIS ESTADISTICOS DE SALARIOS</h1>
+                <p>En colombia</p>
+            </div>
+            <form action="" class="form-container">
+                <div class="boton">
+                    <p>Mediana general</p>
+                    <button type="button" onclick="botonMediaGeneral()">Check</button>
+                </div>
+                <div class="boton">
+                    <p>Mediana del TOP 10%</p>
+                    <button type="button" onclick="boton10()">Check</button>
+                </div>
+            </form>
+            <div class="resultado">
+                <p id="resultSelect"></p>
+            </div>
+        </div>
+        <div class="explicacion">
+            <p>Los resultados de esta estadistica son falsos, el programa hace el analisis basado en los datos que el creador puso dentro de objetos directamente en el codigo.</p>
+            <p>Para ver estos datos <a href="/Taller-4/show.html">Click Aqui</a></p>
+        </div>
+    </main>
+    <script src="./salarios.js"></script>
+    <script src="./analisis.js"></script>
+</body>
+</html>
